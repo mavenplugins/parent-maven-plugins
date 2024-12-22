@@ -102,10 +102,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Summary
 - Initial release maintained within GitHub mavenplugins organization
-- Moved and updated from `de.mhoffrogge.maven:parent-maven-plugins:1` at [parent-maven-plugins on GitLab](https://gitlab.com/mhopen/maven-plugins/-/tree/master/parent-maven-plugins?ref_type=heads)
+- Moved and updated from `de.mhoffrogge.maven:parent-maven-plugins:3` at [parent-maven-plugins on GitLab](https://gitlab.com/mhopen/maven-plugins/-/tree/master/parent-maven-plugins?ref_type=heads)
 
 ### 📦 Updates
-- Maven groupId changed to `io.github.mavenplugins`
+- pom.xml:
+  - groupId changed to `io.github.mavenplugins`
+  - bump version to 4
+  - remove obsolete property `<version.plexus-component-metadata>1.7.1</version.plexus-component-metadata>`
+  - remove obsolete dependency managements
+  - add dependency management for io.github.mavenplugins:base-maven-plugins
 
 ### 📝 Usage
 - For details on usage please have a look to the comments in [pom.xml](pom.xml)
