@@ -76,13 +76,39 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 <!-- !!! Align version in badge URLs as well !!! -->
-[![5 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/parent-maven-plugins?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=5)](https://central.sonatype.com/artifact/io.github.mavenplugins/parent-maven-plugins/5)
+[![6 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/parent-maven-plugins?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=6)](https://central.sonatype.com/artifact/io.github.mavenplugins/parent-maven-plugins/6)
 
 ### Summary
 - TBD
 
 ### 📦 Updates
 - TBD
+
+### 📝 Usage
+- For details on usage please have a look to the comments in [pom.xml](pom.xml)
+- Use as parent pom:
+  ```
+  <parent>
+    <groupId>io.github.mavenplugins</groupId>
+    <artifactId>parent-maven-plugins</artifactId>
+    <version>6</version>
+  </parent>
+  ```
+
+
+## [5]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![5 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/parent-maven-plugins?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=5)](https://central.sonatype.com/artifact/io.github.mavenplugins/parent-maven-plugins/5)
+
+### Summary
+- Refer to parent pom version `io.github.mavenplugins:parent-base-maven-plugins:3`
+
+### 📦 Updates
+- pom.xml:
+  - bump `<version.base-maven-plugins>1.0.2</version.base-maven-plugins>`
+
+### 🔒 Security
+- Update reference to parent pom version `io.github.mavenplugins:parent-base-maven-plugins:3`
 
 ### 📝 Usage
 - For details on usage please have a look to the comments in [pom.xml](pom.xml)
@@ -131,5 +157,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This is just a dummy placeholder to make the parser of GHCICD/release-notes-from-changelog@v1 happy!
 -->
 
-[Unreleased]: https://github.com/mavenplugins/parent-maven-plugins/compare/v4..HEAD
+[Unreleased]: https://github.com/mavenplugins/parent-maven-plugins/compare/v5..HEAD
+[5]: https://github.com/mavenplugins/parent-maven-plugins/compare/v4..v5
 [4]: https://github.com/mavenplugins/parent-maven-plugins/releases/tag/v4
