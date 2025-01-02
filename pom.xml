@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>parent-maven-plugins</artifactId>
-  <version>5-SNAPSHOT</version>
+  <version>5</version>
   <packaging>pom</packaging>
 
   <name>Parent Maven Plugins</name>
@@ -43,7 +43,7 @@
   <scm>
     <connection>scm:git:https://github.com/mavenplugins/parent-maven-plugins.git</connection>
     <url>https://github.com/mavenplugins/parent-maven-plugins</url>
-    <tag>HEAD</tag>
+    <tag>v5</tag>
   </scm>
 
   <issueManagement>
